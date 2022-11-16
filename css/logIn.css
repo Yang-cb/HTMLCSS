@@ -1,0 +1,40 @@
+/*
+                                登录页面css
+*/
+body {
+    width: auto;
+}
+
+.registerarea {
+    background-color: transparent;
+    border: 0;
+}
+
+
+.logIn_box {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    width: 300px;
+    height: 500px;
+    background: rgba(0, 0, 0, .4);
+}
+
+.logIn_hd h3 {
+    height: 120px;
+    line-height: 120px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.logIn_bd input[type="text"] {
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    padding-left: 8px;
+}
+
+a {
+    color: #fff;
+}

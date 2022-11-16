@@ -1,0 +1,146 @@
+/*
+                                    美图页专属css
+*/
+
+.nav .menu ul li:nth-child(3) {
+    /* .nav的第3个li标签 */
+    background-color: #6699CC;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .3);
+}
+
+.nav .menu ul li:nth-child(3) a {
+    /* .nav的第3个li里的a */
+    color: #fff;
+}
+
+/* 
+        美图区域
+*/
+
+.top_one {
+    height: 400px;
+    margin-top: 10px;
+    overflow: hidden;
+    transition: .7s;
+}
+
+.top_one ul li {
+    position: relative;
+    float: left;
+    width: 220px;
+    height: 400px;
+    transition: .7s;
+}
+
+.top_one:hover li {
+    width: 100px;
+}
+
+.top_one ul li:hover {
+    width: 700px;
+}
+
+.top_one_txt {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.top_one_txt a {
+    color: #6699CC;
+}
+
+/* 
+        画展
+*/
+.like {
+    margin-top: 30px;
+}
+
+.like_txt {
+    background-color: #f5f5f5;
+    height: 50px;
+    margin: 10px 0;
+    line-height: 50px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+}
+
+.like_txt h3 {
+    float: left;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.like_txt span {
+    float: right;
+    margin-right: 15px;
+}
+
+.like_txt span a {
+    color: #b1191a;
+}
+
+/* 美图区 */
+.pic_Group ul {
+    height: 580px;
+}
+
+.pic_Group ul li {
+    position: relative;
+    float: left;
+    width: 333px;
+    height: 270px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, .3);
+    transition: 0.4s;
+    text-align: center;
+}
+
+.pic_Group ul li:hover {
+    box-shadow: 12px 12px 8px rgba(0, 0, 0, .3);
+}
+
+/* 选择3 6 9 12...号li标签 */
+.pic_Group ul li:nth-child(3n) {
+    margin-right: 0;
+}
+
+/* 限制图片大小 */
+.pic_Group ul li img {
+    width: 323px;
+    height: 222px;
+    margin-top: 5px;
+}
+
+.pic_Group_txt {
+    margin-top: 5px;
+}
+
+/* 喜欢本作品按钮 */
+.like_this {
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+}
+
+/* 日期分割线 */
+.date {
+    position: relative;
+}
+
+.date h2 {
+    font-size: 14px;
+}
+
+.date::before {
+    /* 伪元素，设置日期后的分割线 */
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 980px;
+    height: 1px;
+    background-color: #000;
+}

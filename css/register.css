@@ -1,0 +1,131 @@
+/*
+                                    注册页专属css
+*/
+
+/* 
+                        注册专区
+*/
+body {
+    background: url(../images/bgi.png) no-repeat;
+    background-size: 100%;
+}
+
+.Log_in {
+    background-color: transparent;
+}
+
+footer {
+    height: 75px;
+    background: rgba(0, 0, 0, .4);
+    color: #999;
+}
+
+.header h2,
+.header h3 {
+    color: #fff;
+}
+
+.registerarea {
+    height: 520px;
+    width: 700px;
+    margin: 22px auto 0;
+    border: 1px solid #f5f5f5;
+    background-color: rgba(0, 0, 0, .4);
+    color: #CCFFFF;
+}
+
+.registerarea h3 {
+    height: 40px;
+    padding: 0 10px;
+    background-color: #CCCCFF;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.registerarea h3 span {
+    float: right;
+    font-size: 12px;
+}
+
+.registerarea h3 span a {
+    color: #6699CC;
+}
+
+/* 
+                注册内容
+*/
+.reg_form {
+    width: 450px;
+    margin: 40px auto 0;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    background-color: transparent;
+}
+
+/* 给前6个input标签设置样式 */
+.reg_form ul li:nth-child(-n+6) input {
+    width: 240px;
+    height: 35px;
+    border: 1px solid #ccc;
+    background: rgba(204, 255, 255, .2);
+}
+
+/* 安全程度 */
+.safe {
+    margin: -10px 0 20px 155px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.safe .ruo {
+    background-color: #de1111;
+}
+
+.safe .zhong {
+    background-color: #40b83f;
+}
+
+.safe .qiang {
+    background-color: #f79100;
+}
+
+/* 用户协议 */
+.agree {
+    margin-left: 100px;
+}
+
+.agree .agree_label {
+    width: 75px;
+}
+
+.agree input {
+    /* 文字和input居中显示 */
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+/* 确认注册按钮 */
+.buttom {
+    width: 200px;
+    height: 35px;
+    margin-left: 100px;
+    background-color: #CCCCFF;
+    color: #fff;
+    font-size: 14px;
+}

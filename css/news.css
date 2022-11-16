@@ -1,0 +1,187 @@
+/*
+                                      新闻页专属css
+*/
+
+.nav .menu ul li:nth-child(2) {
+    /* .nav的第2个li标签 */
+    background-color: #6699CC;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .3);
+}
+
+.nav .menu ul li:nth-child(2) a {
+    /* .nav的第2个li里的a */
+    color: #fff;
+}
+
+/* 
+                响应式插图
+*/
+.illustration {
+    height: 500px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* 卡片单位 */
+.card {
+    float: left;
+    width: 200px;
+    height: 390px;
+    margin: 0 37px;
+    transition: 0.5s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+}
+
+.card:hover {
+    height: 455px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .5);
+}
+
+.card .img {
+    width: 100%;
+    height: 300px;
+}
+
+.card .img img {
+    height: 100%;
+    width: 100%;
+}
+
+.card .top_txt {
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+.card .top_txt .name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #074d92;
+}
+
+.card .top_txt p {
+    font-size: 16px;
+}
+
+.card .bottom_txt {
+    visibility: hidden;
+    transition: 0.1s;
+    color: #999;
+    font-size: 14px;
+}
+
+.card:hover .bottom_txt {
+    visibility: visible;
+}
+
+/*
+        新闻模块
+*/
+.main h3 {
+    height: 50px;
+    margin: 10px 0;
+    line-height: 50px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+/* 左侧新闻 */
+.news {
+    float: left;
+    width: 650px;
+}
+
+/* 页码 */
+.page_num {
+    text-align: center;
+}
+
+.page_num a {
+    display: inline-block;
+    padding: 0 7px;
+    border: 1px solid #ccc;
+}
+
+/* 新闻块 */
+.newsGroup {
+    margin: 15px 0;
+    font-size: 14px;
+    line-height: 2em;
+}
+
+.newsGroup li {
+    display: block;
+    list-style: none;
+    padding-left: 2em;
+    clear: both;
+    text-align: right;
+}
+
+/* 新闻文案 */
+.newsGroup li .newsTxt {
+    display: block;
+    float: left;
+    width: 550px;
+    text-align: left;
+}
+
+/* 新闻时间 */
+.newsGroup li .newsTime {
+    font-size: 12px;
+    color: #666;
+}
+
+/* 右侧热点 */
+.hot_spot {
+    float: right;
+    width: 340px;
+}
+
+/* 热点块 */
+.hot_spot_box {
+    width: 300px;
+    margin: 10px auto;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.hot_spot_box .box_hd {
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+}
+
+.box_hd h2 {
+    float: left;
+    padding: 0 10px;
+    height: 28px;
+    font-size: 14px;
+    color: #074d92;
+    /* 定位，将h2的下边框与.box_hd的下边框重合 */
+    position: relative;
+    left: 0;
+    bottom: -1px;
+    border-bottom: 2px solid #074d92;
+}
+
+.box_hd span {
+    float: right;
+    font-size: 12px;
+}
+
+.box_bd {
+    padding: 10px 0;
+}
+
+.box_bd .list li {
+    font-size: 12px;
+    line-height: 24px;
+    text-align: left;
+}

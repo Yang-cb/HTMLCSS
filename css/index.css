@@ -1,0 +1,209 @@
+/*
+                                        主页专属css
+*/
+
+.nav .menu ul li:nth-child(1) {
+    /* .nav的第一个li标签 */
+    background-color: #6699CC;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .3);
+}
+
+.nav .menu ul li:nth-child(1) a {
+    /* .nav的第一个li里的a */
+    color: #fff;
+}
+
+/*
+        主体1
+*/
+.main_1 {
+    height: 410px;
+    margin-top: 20px;
+}
+
+/* 左侧快捷导航栏 */
+.main_1 .m1_left {
+    float: left;
+    width: 198px;
+    height: 406px;
+    margin-right: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+}
+
+.m1_left h3 {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #CCCCFF;
+    color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+}
+
+.m1_left ul {
+    padding: 17px 0;
+}
+
+.m1_left ul li {
+    position: relative;
+    height: 50px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 50px;
+    transition: 0.2s;
+}
+
+.m1_left ul li a {
+    display: block;
+    width: 190px;
+}
+
+/* 左侧快捷导航栏右侧小箭头 */
+.m1_left ul li::after {
+    content: '>';
+    position: absolute;
+    top: -1px;
+    right: 12px;
+    color: #CCCCFF;
+}
+
+.m1_left ul li:hover {
+    margin-left: 3px;
+    margin-right: -3px;
+    background-color: #CCCCFF;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .3);
+}
+
+.m1_left ul li:hover a {
+    color: #fff;
+}
+
+/* 中间大图 */
+.main_1 .m1_middle {
+    float: left;
+    width: 600px;
+    text-align: center;
+}
+
+.main_1 h2 {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 微软雅黑;
+    color: #000;
+}
+
+.main_1>div img {
+    width: 600px;
+    margin-top: 20px;
+}
+
+/* 右侧 */
+.main_1 .m1_right {
+    float: right;
+    width: 240px;
+    height: 410px;
+}
+
+/* 今日热点 */
+.today_news {
+    height: 231px;
+    border: 1px solid #CCCCFF;
+}
+
+.today_news h3 {
+    height: 50px;
+    padding-left: 5px;
+    margin-bottom: 4px;
+    background-color: #CCCCFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .3);
+}
+
+.today_news ul li {
+    height: 30px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    line-height: 30px;
+    font-size: 14px;
+    /*强制一行内显示全部文本 */
+    white-space: nowrap;
+    /*溢出的部分隐藏*/
+    overflow: hidden;
+    /*用省略号替代超出的部分*/
+    text-overflow: ellipsis;
+}
+
+.img_txt {
+    width: 240px;
+    text-align: center;
+}
+
+.today_img .img_txt img {
+    margin-top: 25px;
+    width: 100%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .3);
+}
+
+.big_img {
+    padding: 30px 0;
+    margin: 35px 0;
+    height: 400px;
+    border-top: 1px dotted #000;
+    border-bottom: 1px dotted #000;
+    background: url(../images/mian_img_1.png) no-repeat center;
+    background-size: 100%;
+}
+
+/* 
+        主体2
+*/
+.main_2 {
+    background: url(../images/mian_img_2.png) no-repeat center 245px;
+    background-size: 100%;
+}
+
+.main_2 h3 {
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000;
+
+}
+
+.main_2_txt {
+    margin: 20px 0;
+}
+
+.main_2_txt span {
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.main_2_txt p {
+    margin: 18px 0;
+    font-size: 14px;
+    text-align: left;
+    text-indent: 2em;
+}
+
+.video_box {
+    width: 450px;
+    height: 253px;
+    margin: 90px auto;
+    text-align: center;
+}
+
+.video_box video {
+    width: 100%;
+}
+
+.video_box_txt {
+    padding-top: 10px;
+    color: #fff;
+}

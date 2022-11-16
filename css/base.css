@@ -1,0 +1,62 @@
+/* 
+                                      初始化css           
+*/
+
+
+/* 所有标签的内外边距清零 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font: 12px/1.5 "微软雅黑";
+    color: #666;
+}
+
+/* 去掉li的小圆点 */
+li {
+    list-style: none;
+}
+
+img {
+    /* 照顾低版本浏览器，如果图片外面包含链接会有边框 */
+    border: 0;
+    /* 解决图片底侧会有空白缝隙的问题 */
+    vertical-align: middle;
+}
+
+/* 鼠标经过button时，鼠标样式变成小手 */
+button {
+    cursor: pointer;
+}
+
+button,
+input {
+    border: 0;
+    /* 去除聚焦后边框变蓝 */
+    outline: none;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1
+}

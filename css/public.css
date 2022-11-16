@@ -1,0 +1,190 @@
+/*
+                             公共样式表
+*/
+
+.w {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+a:hover {
+    color: #6666FF;
+}
+
+/* 
+        悬浮导航
+*/
+.right_fixed {
+    position: fixed;
+    right: 0px;
+    bottom: 60px;
+    text-align: center;
+    z-index: 1;
+}
+
+.right_fixed ul {
+    background: #fff;
+    box-shadow: 0 0 8px 0 rgb(0, 0, 0, .4);
+}
+
+.right_fixed ul li a {
+    display: block;
+    padding: 20px 5px;
+    color: #000;
+    border-top: 1px solid #ccc;
+}
+
+.right_fixed ul li a:hover {
+    background-color: #6699CC;
+}
+
+/*
+    登录
+*/
+.Log_in {
+    height: 30px;
+    background-color: #f5f5f5;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.Log_in_txt {
+    padding-right: 40px;
+    float: right;
+}
+
+.Log_in_txt a {
+    color: #b1191a;
+}
+
+/*
+    头部 
+ */
+.header {
+    position: relative;
+    height: 112px;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+}
+
+.header img {
+    width: 110px;
+    height: 90px;
+}
+
+.header h1 a {
+    /* 隐藏logo a标签里的文字 */
+    font-size: 0;
+}
+
+.header h2 {
+    padding-top: 15px;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 微软雅黑;
+    color: #336699;
+}
+
+/*
+    导航栏
+*/
+.nav {
+    height: 40px;
+    border-bottom: 2px solid #6699CC;
+}
+
+/*              导航区域 */
+.nav .menu {
+    float: left;
+    width: 600px;
+    height: 40px;
+}
+
+.menu ul li {
+    float: left;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 20px 0 20px 0;
+    line-height: 40px;
+    transition: 0.2s;
+}
+
+.menu ul li a {
+    padding: 30px;
+    font-size: 20px;
+    color: #6699CC;
+}
+
+.menu ul li:hover {
+    background-color: #6699CC;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .3);
+}
+
+.menu ul li:hover a {
+    color: #fff;
+}
+
+/*              搜索区域 */
+.nav .search {
+    float: right;
+    width: 395px;
+    height: 35px;
+}
+
+/* 选择type值为text的input标签 */
+.search input[type="text"] {
+    float: left;
+    width: 300px;
+    height: 33px;
+    padding-left: 10px;
+    border: 1px solid #99CCFF;
+    border-right: 0;
+}
+
+.search button {
+    float: left;
+    width: 60px;
+    height: 35px;
+    background-color: #6699CC;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* 
+        底部
+*/
+footer {
+    margin-top: 50px;
+    padding-top: 40px;
+    height: 160px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.help {
+    height: 85px;
+    margin: 0 auto;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.help dl {
+    float: left;
+    width: 200px;
+    margin-left: 230px;
+}
+
+.help dl dt {
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+
+.help dl dd {
+    line-height: 20px;
+}
